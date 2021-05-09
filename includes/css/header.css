@@ -1,0 +1,40 @@
+
+
+
+body{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0;
+    row-gap: 120px;
+}
+
+
+
+header{
+    height: 60px ;
+	background-color: #f6f5f7;
+   
+}
+
+
+header ul{
+    float: right;
+    position: relative;
+    right: 5%;
+
+}
+
+
+header ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+
+header ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    padding: 0px 0px 0px 20px;
+
+}
