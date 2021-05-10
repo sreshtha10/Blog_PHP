@@ -7,7 +7,7 @@
 	<div class="form-container sign-up-container">
 		<form action="includes/register-inc.php" method="POST">
 			<h1>Create Account</h1>
-			<input type="text" name= "username" placeholder="Name" />
+			<input type="text" name= "username" id="username" placeholder="Name" />
 			<input type="email" name = "email" placeholder="Email" />
 			<input type="password" name = "password" placeholder="Password" />
 			<input type="password" name = "confirmPassword" placeholder="Confirm Password" />
@@ -15,12 +15,11 @@
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="#">
+		<form action="includes/login-inc.php" method="POST">
 			<h1>Sign in</h1>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
-			<button>Sign In</button>
+			<input type="email" name ="email" placeholder="Email" />
+			<input type="password" name = "password" placeholder="Password" />
+			<button name="signin">Sign In</button>
 		</form>
 	</div>
 	<div class="overlay-container">
