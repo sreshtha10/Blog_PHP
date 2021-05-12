@@ -29,7 +29,11 @@ if(isset($_POST['signin'])){
                 }
                 else if($passCheck == true){
                     // logged in.
-                    header("Location: ../index.php?succes=loggedin");
+                    session_start();
+                    $_SESSION['id'] = $row['id'];
+                    $_SESSION['name'] = $row['name'];
+                    $_SESSION['email'] = $row['email'];
+                    header("Location: ../blog.php?login=success");
                     exit();
                 }
                 else{
