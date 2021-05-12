@@ -1,3 +1,10 @@
-*{
-    
+div .container{
+    background-color: black;
+    border: black;
+    width: 100%;
+}
+
+
+div .article_content{
+    color: blue;
 }

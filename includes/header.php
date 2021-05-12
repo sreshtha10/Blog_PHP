@@ -15,6 +15,7 @@
     <nav>
         <ul>
             <li><a href="index.php">HOME</a></li>
+            <li><a href="blog.php">BLOGS</a></li>
             <li><a href="about.php">ABOUT</a></li>
         </ul>
     </nav>

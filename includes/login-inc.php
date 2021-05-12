@@ -33,6 +33,7 @@ if(isset($_POST['signin'])){
                     $_SESSION['id'] = $row['id'];
                     $_SESSION['name'] = $row['name'];
                     $_SESSION['email'] = $row['email'];
+                    $_SESSION['loggedin'] = true;
                     header("Location: ../blog.php?login=success");
                     exit();
                 }
