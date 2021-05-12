@@ -7,7 +7,7 @@
 	<div class="form-container sign-up-container">
 		<form action="includes/register-inc.php" method="POST">
 			<h1>Create Account</h1>
-			<input type="text" name= "username" id="username" placeholder="Name" />
+			<input type="text" name= "name" id="username" placeholder="Name" />
 			<input type="email" name = "email" placeholder="Email" />
 			<input type="password" name = "password" placeholder="Password" />
 			<input type="password" name = "confirmPassword" placeholder="Confirm Password" />
@@ -17,7 +17,7 @@
 	<div class="form-container sign-in-container">
 		<form action="includes/login-inc.php" method="POST">
 			<h1>Sign in</h1>
-			<input type="email" name ="email" placeholder="Email" />
+			<input type="text" name ="email" placeholder="Email" />
 			<input type="password" name = "password" placeholder="Password" />
 			<button name="signin">Sign In</button>
 		</form>

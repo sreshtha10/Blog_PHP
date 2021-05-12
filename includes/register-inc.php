@@ -3,12 +3,12 @@
 if(isset($_POST['signup'])){
     require 'database.php';
     
-    $name = $_POST['username'];
+    $name = $_POST['name'];
     $password = $_POST['password'];
     $confirmPassword = $_POST['confirmPassword'];
     $email = $_POST['email'];
 
-    if(empty($name) || empty($password) || empty($confirmPassword)){
+    if(empty($name) || empty($password) || empty($confirmPassword) || empty($email)){
         header("Location: ../index.php?error=emptyfields&username=");
         exit();
     }
