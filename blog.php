@@ -1,7 +1,6 @@
 <?php
 require_once 'includes/header.php';
 echo "<link  rel = \"stylesheet\"  href = \"includes/css/blog.css\" >";
-echo "<link  rel = \"stylesheet\"  href = \"includes/css/header.css\" >";
 require_once 'includes/publish.php';
 ?>
 
@@ -19,7 +18,7 @@ require_once 'includes/publish.php';
     </div>
     <div class="main">
 
-        <div class="write_a_blog"> <a href="#" class="btn btn-sm animated-button victoria-one">
+        <div class="write_a_blog"> <a href="write.php" class="btn btn-sm animated-button victoria-one">
                 Write a Blog</a> </div>
         <ul class="article">
             <?php foreach ($blogs as $blog) : ?>

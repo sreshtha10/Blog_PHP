@@ -3,8 +3,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	margin-top: 0;
-    row-gap: 100px;
-    ;
+    row-gap: 80px;
+    
 }
 
 header{
@@ -17,9 +17,9 @@ header{
 
 header ul{
     float: right;
-    position: relative;
-    right: 5%;
+    position:relative;
     width: 100%;
+    right: 5%;
 
 }
 
