@@ -6,7 +6,7 @@ div .main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width:100%;
 	margin-left: 0px;
 }
 
@@ -20,7 +20,7 @@ div .heading{
 
 .box {
     padding: 2%;
-    width: 70%;
+    width: 90%;
     border: 3px solid;
     border-image-slice: 1;
     margin-bottom: 40px;
