@@ -2,6 +2,7 @@
 
 if(isset($_POST['signup'])){
     require 'database.php';
+    require 'header.php';
     
     $name = $_POST['name'];
     $password = $_POST['password'];

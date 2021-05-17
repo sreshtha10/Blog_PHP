@@ -13,8 +13,9 @@ if (isset($_SESSION['name'])) {
 }
 ?>
 <section class="">
+    <form action = "includes/post-inc.php" method="POST">
     <div class="col-md-6 col-sm-9">
-        <input type="text" name="title" placeholder="Enter the title here..."> <span>by <?php echo $_SESSION['name']; ?></span><br>
+        <input type="text" id ="title" name="title" placeholder="Enter the title here..."> <span>by <?php echo $_SESSION['name']; ?></span><br>
     </div>
     <div class="row">
         <div class="col">
@@ -31,13 +32,16 @@ if (isset($_SESSION['name'])) {
     <br>
     <div class="row">
         <div class="col-md-6 col-sm-9">
-            <textarea id="textarea1" class="input shadow" name="name" rows="15" cols="100" placeholder=" Enter your text here..."></textarea>
+            <textarea id="textarea1" class="input shadow" name="textarea1" rows="15" cols="100" placeholder=" Enter your text here..."></textarea>
 
         </div>
     </div>
-    <div class="post_button"> <a href="includes/post-inc.php" class="btn btn-sm animated-button victoria-one">
-            POST</a> </div>
+    <div class="post_button"> <a href="#" class="btn btn-sm animated-button victoria-one" name="post">
+            <button name="post">POST</button></a> </div>
     </div>
+    </form>
+    
+   
 </section>
 <br>
 <script src="includes/js/write.js"></script>
