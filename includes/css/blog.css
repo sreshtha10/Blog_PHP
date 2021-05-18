@@ -13,18 +13,12 @@ div .main{
 div .heading{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    font-weight: lighter;
-    font-style: normal;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 .box {
     padding: 2%;
     width: 90%;
-    border: 3px solid;
-    border-image-slice: 1;
-    margin-bottom: 40px;
-    border-image-source: linear-gradient(to left, #000, #808080);
   }
 
 
@@ -48,7 +42,7 @@ span{
     font-style: italic;
     font-size: smaller;
     color : #808080;
-    padding-left: 7%;
+    padding-left: 5%;
 }
 
 

@@ -1,7 +1,7 @@
 <?php
 $dbhost = "localhost";
 $dbUser = "root";
-$dbPass = "sreshtha";
+$dbPass = "root";
 $dbName = "project";
 
 // connection to database.

@@ -11,7 +11,7 @@ require_once 'includes/publish.php';
 
         <?php
         if (isset($_SESSION['name'])) {
-            echo "Welcome " . $_SESSION['name'];
+            echo "welcome " . $_SESSION['name'];
         }
         ?>
 
